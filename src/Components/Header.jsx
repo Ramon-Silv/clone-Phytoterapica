@@ -19,6 +19,7 @@ function Header(){
                     <img src={Carrinho} alt="Carrinho"/>
                 </div>
             </header>
+            
             <nav>
                 <ul>
                     <li>ÓLEOS ESSENCIAIS</li>
@@ -34,9 +35,7 @@ function Header(){
                 </ul>
             </nav>
 
-            <script>
-
-            </script>
+            
         </div>
     )
 }
