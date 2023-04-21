@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#email{
+    width: 100%;
+    height: 20vh;
+    margin: 1% 0;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#email .email_txt{
+    font-size: 1.1em;
+}
+
+#email form{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 4%;
+}
+
+#email form input{
+    height: 40%;
+}
+
+form input:first-child{
+    border: 1px solid rgba(84, 84, 84, 0.5);
+    border-radius: 30px;
+    width: 80%;
+    padding: 2%;
+}
+
+form input:first-child:focus{
+    outline: none;
+}
+
+form input:last-child{
+    border: none;
+    background-color: #98b020;
+    color: #ffffff;
+    margin: 0 2%;
+    padding: 0 5%;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+form input:last-child:hover{
+    background-color: #b2c941;
+}
+
+.valores{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(84, 84, 84, 0.4);
+    padding: 4% 0;
+    margin: 0 0 2% 0;
+}
+
+.valores_cont{
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.valores_cont div{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    color: #545454;
+}
+
+.valores_cont h2{
+    color: #1a1a1a;
+}
+
+.valores_cont img{
+    width: 17%;   
+}
+
+footer{
+    width: 100%;
+    height: 40vh;
+    padding: 2% 0;
+}
+
+.rodape{
+    width: 100%;
+    height: 90%;
+    margin-bottom: 4%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rodape .divLogo{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.rodape .divLogo img{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+.contato{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.suporte p, .contato p, .pagamento p{
+    font-size: 1.5em;
+    padding: 3.5% 0;
+}
+
+.icons{
+    font-size: 2em;
+    color: #0d0d0d;
+    padding: 2%;
+    border: 1px solid #0d0d0d;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.icons:hover{
+    color: rgba(44, 154, 44, 0.908);
+    border-color: rgba(44, 154, 44, 0.908);
+}
+
+.suporte ul li{
+    font-size: 1.09em;
+    padding: 1.5% 0;
+}
+
+.suporte ul li:hover{
+    transform: translateX(2%);
+    transition: .5s;
+}
+
+.contato ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.contato ul li{
+    display: flex;
+    align-items: center;
+    margin: 0.5% 0;
+}
+
+.contato ul li span{
+    margin: 0 2%;
+}
+
+.pagamento img{
+    width: 25%;
+    margin: 1%;
+}
+
+.direitos{
+    width: 100%;
+    height: 10%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-top: 1px solid rgba(84, 84, 84, 0.4);
+}
+
+.direitos span{
+    font-size: 0.95em;
+}
+
+.direitos p{
+    font-size: 0.9em;
+    padding: 0.5% 0;
+}
+
+.direitos span:last-child:hover, .direitos p span:first-child:hover{
+    color: #545454;
+    cursor: pointer;
+    text-decoration: underline;
+}
