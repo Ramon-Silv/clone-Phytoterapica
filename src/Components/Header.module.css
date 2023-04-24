@@ -55,7 +55,7 @@ header{
 }
 
 .menu button:hover{
-    background-color: rgba(44, 154, 44, 0.908);
+    background-color: #98b020;
     transition: .5s;
 }
 
